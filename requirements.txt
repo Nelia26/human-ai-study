@@ -1,3 +1,0 @@
-streamlit>=1.40,<2
-filelock>=3.16,<4
-gspread>=6.1,<7
