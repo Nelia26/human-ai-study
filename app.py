@@ -154,10 +154,14 @@ def sync_google_sheets(state=None):
             settings = google_sheets_settings()
             sheets_sync.sync_pending(connect, DATA, settings, PARTICIPANT_FIELDS, TASK_FIELDS)
             st.session_state['_sheets_failed'] = False
+        except ModuleNotFoundError as exc:
+            import logging
+            logging.warning('Google Sheets missing module: %s', exc.name)
+            st.session_state['_sheets_failed'] = True
         except Exception as exc:
-            # Log the error type only: API messages can contain response data.
             import logging
             logging.warning('Google Sheets backup pending (%s)', type(exc).__name__)
+            st.session_state['_sheets_failed'] = True
             st.session_state['_sheets_failed'] = True
         st.session_state['_sheets_retry_at'] = time.time() + 30
         st.session_state['_sheets_marker'] = marker
