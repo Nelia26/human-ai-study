@@ -52,7 +52,7 @@ def upsert_records(book, title, fields, key_fields, records):
     except gspread.WorksheetNotFound:
         sheet = book.add_worksheet(title=title, rows=1000, cols=len(fields))
     values = sheet.get_all_values()
-    if not values:
+if not values or not any(str(cell).strip() for cell in values[0]):
         if sheet.col_count < len(fields):
             sheet.resize(cols=len(fields))
         sheet.update(range_name='A1', values=[list(fields)], value_input_option='RAW')
