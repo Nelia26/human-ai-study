@@ -163,16 +163,13 @@ def sync_google_sheets(state=None):
             import traceback
 
             if isinstance(exc, ValueError):
-                frame = traceback.extract_tb(exc.__traceback__)[-1]
-                logging.warning(
-                    'Google Sheets ValueError at %s:%s in %s',
-                    frame.filename, frame.lineno, frame.name
-                )
+                logging.warning('Google Sheets exact error: %s', str(exc))
             else:
                 logging.warning(
                     'Google Sheets backup pending (%s)',
                     type(exc).__name__
                 )
+            st.session_state['_sheets_failed'] = True
 
             st.session_state['_sheets_failed'] = True
             st.session_state['_sheets_failed'] = True
