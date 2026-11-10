@@ -1,0 +1,197 @@
+[
+  {
+    "task": "Your team has a fixed deadline, cannot obtain outside help, and can deliver either the required core features or an unfinished set of all planned features. Which strategy best delivers usable required work on time?",
+    "options": [
+      "Prioritize core features",
+      "Complete all planned features",
+      "Delegate work externally"
+    ],
+    "ai": "Prioritize core features",
+    "task_id": 1,
+    "correct_answer": "Prioritize core features",
+    "answer_criteria": "Given the fixed deadline and no outside help, prioritizing required core features yields usable deliverables; the other options cannot meet the stated constraints.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "You have several days to prepare for an exam and want to retain the material beyond the exam day. Which study schedule best supports durable recall?",
+    "options": [
+      "Study intensively in one day",
+      "Distribute sessions across several days",
+      "Only review summaries"
+    ],
+    "ai": "Only review summaries",
+    "task_id": 2,
+    "correct_answer": "Distribute sessions across several days",
+    "answer_criteria": "Spreading learning over several days supports spaced retrieval and durable recall better than one-day cramming or reviewing summaries alone.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "A team misunderstanding involves several people, and a short meeting is available now. The goal is to clarify differing interpretations through immediate two-way discussion. What should be done first?",
+    "options": [
+      "Schedule a meeting",
+      "Send a detailed email",
+      "Ignore it temporarily"
+    ],
+    "ai": "Schedule a meeting",
+    "task_id": 3,
+    "correct_answer": "Schedule a meeting",
+    "answer_criteria": "An available two-way meeting allows the people involved to clarify and check interpretations immediately, which a one-way email or delay does not provide.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "Your own productivity is reduced by frequent unscheduled switching between tasks. Meetings are already essential and minimal, and working hours must not increase. Which first step directly addresses this problem?",
+    "options": [
+      "Introduce time-blocking",
+      "Work longer hours",
+      "Reduce team meetings"
+    ],
+    "ai": "Work longer hours",
+    "task_id": 4,
+    "correct_answer": "Introduce time-blocking",
+    "answer_criteria": "Time-blocking directly reduces the stated task-switching problem without increasing hours or removing essential meetings.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "A confirmed software bug is disrupting users now. A tested, safe patch is available, while a redesign would take weeks. What should be prioritized to restore service?",
+    "options": [
+      "Immediate patch",
+      "Full redesign",
+      "Collect more complaints first"
+    ],
+    "ai": "Immediate patch",
+    "task_id": 5,
+    "correct_answer": "Immediate patch",
+    "answer_criteria": "The tested patch addresses the confirmed disruption now; redesign and waiting for complaints delay an available safe remedy.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "A student understands the theory but struggles to apply it independently. Which approach most directly develops the missing application skill?",
+    "options": [
+      "Practice actively",
+      "Read more theory",
+      "Watch motivational videos"
+    ],
+    "ai": "Practice actively",
+    "task_id": 6,
+    "correct_answer": "Practice actively",
+    "answer_criteria": "Active practice exercises the application skill that is missing, whereas additional theory or motivation alone does not.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "A distributed team needs searchable, shared messages and quick asynchronous coordination throughout the week. Which option best meets these requirements?",
+    "options": [
+      "Chat platform",
+      "Email-only communication",
+      "Weekly in-person meetings only"
+    ],
+    "ai": "Chat platform",
+    "task_id": 7,
+    "correct_answer": "Chat platform",
+    "answer_criteria": "A chat platform supports shared, searchable asynchronous messages throughout the week; email-only exchanges and weekly meetings do not meet the full stated requirement.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "A project deadline is fixed, essential deliverables are known, and there is no new information requiring the plan to change. Which response best maximizes delivery of the required work?",
+    "options": [
+      "Focus on essential deliverables",
+      "Add extra features",
+      "Pause for reevaluation"
+    ],
+    "ai": "Focus on essential deliverables",
+    "task_id": 8,
+    "correct_answer": "Focus on essential deliverables",
+    "answer_criteria": "Focusing on essential deliverables directly supports the fixed deadline; extra features or an unnecessary pause consume the limited time.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "A customer requests urgent support. You can acknowledge the request and start triage now, even if a full resolution will take longer. What should be done to minimize the time until the customer receives help?",
+    "options": [
+      "Respond immediately",
+      "Schedule later follow-up",
+      "Wait for more information"
+    ],
+    "ai": "Respond immediately",
+    "task_id": 9,
+    "correct_answer": "Respond immediately",
+    "answer_criteria": "An immediate acknowledgement and triage begin help now; this means responding promptly, not promising an immediate complete resolution.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "Your team needs to combine ideas from different specialties in a live group session, with explicit encouragement to explore alternatives before choosing a solution. Which option directly supports that goal?",
+    "options": [
+      "Brainstorming sessions",
+      "Strict task allocation",
+      "Individual isolated work"
+    ],
+    "ai": "Individual isolated work",
+    "task_id": 10,
+    "correct_answer": "Brainstorming sessions",
+    "answer_criteria": "Brainstorming is the listed activity that enables live cross-specialty idea exchange and exploration; allocation or isolated work does not meet that specific goal.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "A researcher has limited time and needs to identify problems in a new procedure before the main data collection. Which option checks whether the procedure works?",
+    "options": [
+      "Pilot testing",
+      "Skipping validation",
+      "Collecting minimal data"
+    ],
+    "ai": "Pilot testing",
+    "task_id": 11,
+    "correct_answer": "Pilot testing",
+    "answer_criteria": "A pilot tests the new procedure before main collection and can expose problems; skipping validation or merely reducing data does not test it.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "Your team receives conflicting feedback and needs a decision that considers the evidence behind each viewpoint. Which action best meets that requirement?",
+    "options": [
+      "Analyze all feedback systematically",
+      "Follow the loudest opinion",
+      "Ignore feedback"
+    ],
+    "ai": "Analyze all feedback systematically",
+    "task_id": 12,
+    "correct_answer": "Analyze all feedback systematically",
+    "answer_criteria": "Systematic analysis considers evidence across the conflicting viewpoints; volume of opinion or ignoring feedback is not an evidence-based decision rule.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "A company wants employees to practice a new procedure, receive immediate feedback, and correct mistakes with a facilitator present. Which option directly provides all three?",
+    "options": [
+      "Interactive workshops",
+      "Long lectures",
+      "Independent reading only"
+    ],
+    "ai": "Long lectures",
+    "task_id": 13,
+    "correct_answer": "Interactive workshops",
+    "answer_criteria": "An interactive workshop can provide practice, immediate feedback, and facilitator-guided correction; lectures or reading alone do not provide all three.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "A product launch must be delayed because release-blocking work is unfinished. Users are waiting, and the immediate goal is to keep them accurately informed without releasing an unusable product. What is the best response?",
+    "options": [
+      "Communicate transparently with users",
+      "Delay without explanation",
+      "Release unfinished product"
+    ],
+    "ai": "Communicate transparently with users",
+    "task_id": 14,
+    "correct_answer": "Communicate transparently with users",
+    "answer_criteria": "Transparent communication keeps waiting users accurately informed while the release-blocking work is completed.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  },
+  {
+    "task": "A decision has a fixed deadline, useful evidence is available, and complete certainty is impossible. Which approach makes use of that evidence while allowing a timely decision?",
+    "options": [
+      "Evaluate available evidence",
+      "Trust intuition only",
+      "Delay indefinitely"
+    ],
+    "ai": "Evaluate available evidence",
+    "task_id": 15,
+    "correct_answer": "Evaluate available evidence",
+    "answer_criteria": "Evaluating available evidence uses relevant information to support a timely choice; intuition alone discards it and indefinite delay violates the deadline.",
+    "recommendation_source": "Fixed study stimulus; recommendation selected by the researcher for the planned correct/incorrect advice manipulation, not generated live."
+  }
+]
