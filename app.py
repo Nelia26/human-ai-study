@@ -160,7 +160,20 @@ def sync_google_sheets(state=None):
             st.session_state['_sheets_failed'] = True
         except Exception as exc:
             import logging
-            logging.warning('Google Sheets backup pending (%s)', type(exc).__name__)
+            import traceback
+
+            if isinstance(exc, ValueError):
+                frame = traceback.extract_tb(exc.__traceback__)[-1]
+                logging.warning(
+                    'Google Sheets ValueError at %s:%s in %s',
+                    frame.filename, frame.lineno, frame.name
+                )
+            else:
+                logging.warning(
+                    'Google Sheets backup pending (%s)',
+                    type(exc).__name__
+                )
+
             st.session_state['_sheets_failed'] = True
             st.session_state['_sheets_failed'] = True
         st.session_state['_sheets_retry_at'] = time.time() + 30
