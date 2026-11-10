@@ -55,10 +55,12 @@ def upsert_records(book, title, fields, key_fields, records):
     if not values:
         if sheet.col_count < len(fields):
             sheet.resize(cols=len(fields))
-        sheet.update(range_name='A1', values=[fields], value_input_option='RAW')
-    elif values[0] != fields:
-        raise ValueError(f'{title}: header differs from the expected schema. '
-                         'Use a new empty tab or restore the original header.')
+        sheet.update(range_name='A1', values=[list(fields)], value_input_option='RAW')
+    elif list(values[0]) != list(fields):
+        raise ValueError(
+            f'{title}: header differs from the expected schema. '
+            'Use a new empty tab or restore the original header.'
+        )
 
     positions = [fields.index(key) for key in key_fields]
     existing = {}
