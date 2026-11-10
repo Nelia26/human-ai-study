@@ -122,11 +122,23 @@ def participant_row(state):
     return {key: row.get(key) for key in PARTICIPANT_FIELDS}
 
 
+
 def google_sheets_settings():
     try:
-        return dict(st.secrets.get('google_sheets', {}))
+        settings = dict(st.secrets.get("google_sheets", {}))
+        if settings:
+            return settings
+    except Exception:
+        pass
+
+    try:
+        import toml
+        with open("/etc/secrets/secrets.toml", "r", encoding="utf-8") as f:
+            data = toml.load(f)
+        return dict(data.get("google_sheets", {}))
     except FileNotFoundError:
-        return {}  # No secrets file means local-only saving.
+        return {}
+
 
 
 def sync_google_sheets(state=None):
